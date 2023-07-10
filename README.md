@@ -10,4 +10,4 @@ Grids were generated using manually-fitted variograms (Gridding/MFV/) and auto-f
 Validation correlation plots were generated using the correlation_plots.py and correlation_plots_uneditedVG.py scripts. FOREGS imputed data used for validation is contained within Gridding/FOREGS_Impute_raw.xlsx
 
 ## Genomic Information Field Theory (GIFT)
-Bash scripts used call gift.py to perfrom GIFT analysis with non-imputed and imputed datasets can be found in Scripts/GIFT/no_impute and Scripts/impute respectively. Note, GIFT original code is currently unpublished and was used with permission of its authors.
+Bash scripts used call gift.py to perfrom GIFT analysis with non-imputed and imputed datasets can be found in Scripts/GIFT_no_impute and Scripts/GIFT_impute respectively. Note, GIFT original code is currently unpublished and was used with permission of its authors.
