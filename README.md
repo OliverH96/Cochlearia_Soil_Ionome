@@ -5,3 +5,6 @@ This repository contains data and code produced and used in the MSc Bioinformati
 For soil ionome data imputation, gridding and imputation was performed using [Surfer®](https://www.goldensoftware.com/products/surfer)
 
 Grids were generated using manually-fitted variograms (Gridding/MFV/) and auto-fitted variograms (Gridding/AFV/). Grids for each element can be found in their respective directories. Gridding/MFV/imputation_setup.xlsx contains the variables used to fit MFV grids.
+
+
+Validation correlation plots were generated using the correlation_plots.py and correlation_plots_uneditedVG.py scripts. FOREGS imputed data used for validation is contained within Gridding/FOREGS_Impute_raw.xlsx
