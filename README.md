@@ -11,3 +11,5 @@ Validation correlation plots were generated using the correlation_plots.py and c
 
 ## Genomic Information Field Theory (GIFT)
 Bash scripts used call gift.py to perfrom GIFT analysis with non-imputed and imputed datasets can be found in Scripts/GIFT_no_impute and Scripts/GIFT_impute respectively. Note, GIFT original code is currently unpublished and was used with permission of its authors.
+
+Outlier SNPs were annotated using Extract_function.py to match them with any gene regions in which they occured as well as to provide a brief functional description of any known *Arabidopsis thaliana* orthologs.
