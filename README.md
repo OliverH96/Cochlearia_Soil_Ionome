@@ -7,7 +7,7 @@ For soil ionome data imputation, gridding and imputation was performed using [Su
 Grids were generated using manually-fitted variograms (Gridding/MFV/) and auto-fitted variograms (Gridding/AFV/). Grids for each element can be found in their respective directories. Gridding/MFV/imputation_setup.xlsx contains the variables used to fit MFV grids.
 
 
-Validation correlation plots were generated using the correlation_plots.py and correlation_plots_uneditedVG.py scripts. FOREGS imputed data used for validation is contained within Gridding/FOREGS_Impute_raw.xlsx
+Validation correlation plots were generated using the correlation_plots.py and correlation_plots_uneditedVG.py scripts. FOREGS imputed data used for validation is contained within Gridding/Validation/FOREGS_Impute_raw.xlsx as well as correlation plots for the 10 element validation set MFV and AFV.
 
 Actual and imputed ionome data can be found in the Cochlearia_Soil_Master csv files.
 
