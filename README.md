@@ -9,6 +9,8 @@ Grids were generated using manually-fitted variograms (Gridding/MFV/) and auto-f
 
 Validation correlation plots were generated using the correlation_plots.py and correlation_plots_uneditedVG.py scripts. FOREGS imputed data used for validation is contained within Gridding/FOREGS_Impute_raw.xlsx
 
+Actual and imputed ionome data can be found in the Cochlearia_Soil_Master csv files.
+
 ## GWAS and Genomic Information Field Theory (GIFT)
 Despite not vcf2gwas not finding any significant genotype/phenotype associations, bash scripts used to run vcf2gwas can be found in Scripts/
 
@@ -20,3 +22,5 @@ GIFT output manhattan plots for each element are located in GIFT_Output director
 
 ## Consensus Sequences and Predicted Structures
 g40302.t1 reference and alternate consensus sequences can be found in Consensus_Sequences/ alongside translated sequences and predicted structural models. All sequences are in fasta format, models in pdb format.
+
+Multiple sequence alignment of HKT1 orthologs used in observations of conserved residues and motifs can be found in HKT1_Ortholog_Alignment.clustal_num
