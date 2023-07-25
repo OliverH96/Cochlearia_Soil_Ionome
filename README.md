@@ -15,3 +15,6 @@ Bash scripts used call gift.py to perfrom GIFT analysis with non-imputed and imp
 Outlier SNPs were annotated using Extract_function.py to match them with any gene regions in which they occured as well as to provide a brief functional description of any known *Arabidopsis thaliana* orthologs.
 
 GIFT output manhattan plots for each element are located in GIFT_Output directory. Full output csv are not present here due to file size. The analysed top 0.01% SNPs for Na from both datasets are included, along with scripts and full output for GO and STRING analyses.
+
+## Consensus Sequences and Predicted Structures
+g40302.t1 reference and alternate consensus sequences can be found in Consensus_Sequences/ alongside translated sequences and predicted structural models. All sequences are in fasta format, models in pdb format.
