@@ -52,7 +52,7 @@ go_data_MF <- new("topGOdata",
                nodeSize=5) # an integer larger or equal to 1. This parameter is used to prune the GO hierarchy from the terms which have less than nodeSize annotated gene
 
 
-# Run the GO analysis classic fisher
+# Run the GO analysis using default weight01 fisher
 res_BP_classicFisher <- runTest(go_data_BP, statistic = "fisher")
 res_CC_classicFisher <- runTest(go_data_CC, statistic = "fisher")
 res_MF_classicFisher <- runTest(go_data_MF, statistic = "fisher")
