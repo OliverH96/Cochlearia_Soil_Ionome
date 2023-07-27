@@ -21,6 +21,8 @@ Outlier SNPs were annotated using Extract_function.py to match them with any gen
 GIFT output manhattan plots for each element are located in GIFT_Output directory. Full output csv are not present here due to file size. The analysed top 0.01% SNPs for Na from both datasets are included, along with scripts and full output for GO and STRING analyses. Cochlearia GO term mappings an be found in Cochlearia_Thaliana_GO_universe_restrictive_id2gos_no_obsolete_nonredundant.tsv
 
 ## Consensus Sequences and Predicted Structures
-g40302.t1 reference and alternate consensus sequences can be found in Consensus_Sequences/ alongside translated sequences and predicted structural models. All sequences are in fasta format, models in pdb format.
+Scripts used to generate group consensus sequences can be found in Scripts/Consensus_Sequences
+Groupings and vcf files used for consensus sequence generation can be found in Consensus_Sequences
+Final, EMBOSS generated g40302.t1 reference and alternate consensus sequences can be found in Consensus_Sequences/ alongside translated sequences and predicted structural models. All sequences are in fasta format, models in pdb format.
 
 Multiple sequence alignment of HKT1 orthologs used in observations of conserved residues and motifs can be found in HKT1_Ortholog_Alignment.clustal_num
